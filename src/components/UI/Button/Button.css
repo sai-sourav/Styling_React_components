@@ -8,6 +8,18 @@
   cursor: pointer;
 }
 
+.button.invalid {
+  background: #FFCCCB;
+}
+
+.button.invalid:hover,
+.button.invalid:active
+ {
+  background: #FFCCCB;
+  border-color: #FFCCCB;
+  box-shadow: none;
+}
+
 .button:focus {
   outline: none;
 }
